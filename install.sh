@@ -3,7 +3,7 @@
 cd ~/Desktop
 
 echo "Clonando projeto do curso"
-git clone git@github.com:rafael-rollo/boilerplate-curso-rn.git
+git clone https://github.com/rafael-rollo/boilerplate-curso-rn.git
 
 mv ./boilerplate-curso-rn ./InstaluraMobile
 cd InstaluraMobile
