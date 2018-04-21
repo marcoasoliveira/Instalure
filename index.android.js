@@ -1,53 +1,59 @@
+import AppRegistry from './src/app'
+AppRegistry();
+
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
  */
-
+/*
 import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
   Text,
-  View
+  View,
+  Image,
+  Dimensions,
+  FlatList
 } from 'react-native';
 
+import Post from './src/components/Post'
+
+
 export default class InstaluraMobile extends Component {
+  
+  componentDidMount() {
+    fetch('https://instalura-api.herokuapp.com/api/public/fotos')
+      .then(response => response.json())
+      .then(json => this.setState({fotos: json}))
+  }
+
   render() {
+    const fotos = [
+      {id: 1, usuario: 'rafael'},
+      {id: 2, usuario: 'alberto'},
+      {id: 3, usuario: 'vitor'}
+    ];
+
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Bem vindo ao curso de React Native da Caelum
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
-      </View>
+      <FlatList style={styles.container}
+                keyExtractor={item => item.id}
+                data={fotos}
+                renderItem = {({item}) => 
+                  <Post/>
+                }
+      />      
     );
   }
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    marginTop: 20
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
+
 });
 
 AppRegistry.registerComponent('InstaluraMobile', () => InstaluraMobile);
+*/
