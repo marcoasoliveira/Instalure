@@ -12,7 +12,7 @@ Apresentação do curso, criação do projeto, alteração do arquivo `index.and
 
 todo componente tem, por padrão, `style = {{display: flex, flexDirecton: column}}`
 
-## aula 2
+## aula 2 (manhã)
 - implementação de scroll com o componente `<FlatList>`, onde mapeamos as fotos sem o uso de `<.map>`, mas apenas passando valores para propriedades do componente.
 
 - *NÃO ESQUECER DE IMPORTAR OS COMPONENTES!*
@@ -27,6 +27,29 @@ todo componente tem, por padrão, `style = {{display: flex, flexDirecton: column
 
 - Acesso à API [Instalura](https://instalura-api.herokuapp.com/api/public/fotos/rafael)
 
-###*OBSERVAÇÕES:* 
+### OBSERVAÇÕES:
 
 Atenção aos diretórios dos componentes nos imports e nas referências a arquivos internos (../..  ./)
+
+## aula 2 (tarde)
+
+- implementação do botão de like c/ validação para inserir ou retirar like
+
+- *Obs:* não confundir onde usar `setState` e onde usar `this.state`
+
+- Na apostila estava constando:
+
+`exibeLikes(likers){`
+        `if(likers.length <= 0){`
+           ` return;`
+      `  }`
+        `return (`
+           ` <Text style={styles.likes} >`
+                `{foto.likers.length} {foto.likers.length > 1? 'curtidas' : 'curtida'}`
+            `</Text>`
+      `  )`
+   ` }`
+
+porem a chamada dos parametros está incorreta, pois é diferente do parametro recebido. o certo seria `likers.length` apenas.
+
+- Paramos no capitulo 6.

@@ -19,7 +19,7 @@ class InstaluraMobile extends Component {
     }
   }
     componentDidMount() {
-      fetch('https://instalura-api.herokuapp.com/api/public/fotos/rafael')
+      fetch('https://instalura-api.herokuapp.com/api/public/fotos/vitor')
         .then(response => response.json())
         .then(json => this.setState({fotos: json}))
     }
