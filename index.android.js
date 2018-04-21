@@ -16,16 +16,8 @@ export default class InstaluraMobile extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Bem vindo ao curso de React Native da Caelum
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.android.js
-        </Text>
-        <Text style={styles.instructions}>
-          Double tap R on your keyboard to reload,{'\n'}
-          Shake or press menu button for dev menu
-        </Text>
+        {/*código de demonstração foi removido*/}
+        <text>Marco</text>
       </View>
     );
   }
