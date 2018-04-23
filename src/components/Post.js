@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {
   StyleSheet,
   Text,
+  TextInput,
   View,
   Image,
   Dimensions,
@@ -14,7 +15,8 @@ export default class Post extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      foto: this.props.foto
+      foto: this.props.foto,
+      valorComentario: ''
     }
   }
   carregaIcone(likeada) {
@@ -30,7 +32,7 @@ export default class Post extends Component {
       novaLista = [...foto.likers, { login: 'meuUsuario' }]
     else
       novaLista = foto.likers.filter(
-        liker => this.login !== 'meuUsuario'
+        liker => this.login === 'meuUsuario'
       )
 
     const fotAtualizada = {
@@ -61,12 +63,32 @@ export default class Post extends Component {
       </View>
     )
   }
+
+  adicionaComentario(){
+    if(this.state.valorComentario === '')
+      return;
+    
+      const novaLista = [...this.state.foto.comentarios,{
+                          id: this.state.valorComentario,
+                          login: 'meuUsuario',
+                          texto: this.state.valorComentario
+                          }
+                        ]
+      const fotoAtualizada = {
+        ...this.state.foto,
+        comentarios: novaLista
+      }
+
+      this.setState({foto: fotoAtualizada, valorComentario: ''})
+      this.inputComentario.clear()
+  }
+
   render() {
     const { foto } = this.state
     return (
       <View>
         <View style={styles.header}>
-          <Image source={{ uri: foto.urlFoto }} style={styles.profilePhoto} />
+          <Image source={{ uri: foto.urlPerfil }} style={styles.profilePhoto} />
           <Text>{foto.loginUsuario}</Text>
         </View>
         <Image source={{ uri: foto.urlFoto }} style={styles.photo} />
@@ -78,11 +100,20 @@ export default class Post extends Component {
         {this.exibeLikes(foto.likers)}
         {this.exibeLegenda(foto)}
         {foto.comentarios.map(comentario =>
-          <View style={styles.comentario}>
-            <Text style={styles.tituloComentario}>{foto.loginUsuario}</Text>
-            <Text>{foto.comentario}</Text>
+          <View style={styles.comentario} key={comentario.id}>
+            <Text style={styles.tituloComentario}>{comentario.login}</Text>
+            <Text>{comentario.texto}</Text>
           </View>
         )}
+        <View style={styles.novoComentario}>
+              <TextInput style={styles.input} 
+                         placeholder="Adicione um comentário"
+                         ref={input=>this.inputComentario = input}
+                         onChangeText={texto => this.setState({valorComentario: texto})}/>
+              <TouchableOpacity onPress = {this.adicionaComentario.bind(this)}>
+                <Image style={styles.icone} source={require('../../resources/img/send.png')}/>
+              </TouchableOpacity>
+            </View>
       </View>
     );
   }
@@ -120,8 +151,25 @@ const styles = StyleSheet.create({
   comentarios: {
     flexDirection: 'row',
   },
+  comentario:{
+    margin: 5
+  },
   tituloComentario: {
     fontWeight: 'bold',
     marginRight: 5,
+  },
+  input:{
+    flex: 1,
+    height: 40
+  },
+  icone:{
+    height: 30,
+    width: 30
+  },
+  novoComentario:{
+    flexDirection: 'row',
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ddd'
   }
 });
