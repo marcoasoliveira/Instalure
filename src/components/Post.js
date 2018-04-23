@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {
-  AppRegistry,
   StyleSheet,
   Text,
   View,
@@ -9,156 +8,120 @@ import {
   TouchableOpacity
 } from 'react-native';
 
+const screen = Dimensions.get('screen')
+
 export default class Post extends Component {
-
-    constructor(props){
-        super(props)
-        this.state = {
-            foto: this.props.foto
-        }
+  constructor(props) {
+    super(props)
+    this.state = {
+      foto: this.props.foto
     }
+  }
+  carregaIcone(likeada) {
+    if (likeada)
+      return require('../../resources/img/s2-checked.png')
+    return require('../../resources/img/s2.png')
+  }
+  like = () => {
+    const { foto } = this.state
 
-    carregaIcone(){
-       return this.state.foto.likeada?
-            require('../../resources/img/s2-checked.png') : require('../../resources/img/s2.png')
+    let novaLista = []
+    if (!foto.likeada)
+      novaLista = [...foto.likers, { login: 'meuUsuario' }]
+    else
+      novaLista = foto.likers.filter(
+        liker => this.login !== 'meuUsuario'
+      )
+
+    const fotAtualizada = {
+      ...foto,
+      likeada: !foto.likeada,
+      likers: novaLista
     }
+    this.setState({ foto: fotAtualizada })
+  }
+  exibeLikes(likers) {
+    if (likers.length === 0)
+      return
 
-    like = () => {
-        let novaLista = []
-        if(!this.state.foto.likeada){
-            novaLista = this.state.foto.likers.concat({login: 'meuUsuario'})
-        } else {
-            novaLista = this.state.foto.likers.filter(liker => liker.login != 'meuUsuario')
-        }
+    return (
+      <Text style={styles.likes}>
+        {likers.length} {likers.length <= 1 ? 'curtida' : 'curtidas'}
+      </Text>
+    )
+  }
+  exibeLegenda(foto) {
+    if (foto.comentario === '')
+      return
 
-        const fotoAtualizada = {
-            ...this.state.foto,
-            likeada: !this.state.foto.likeada,
-            likers: novaLista
-        }
-
-        this.setState({foto: fotoAtualizada})
-    }
-
-    exibeLikes(likers) {
-        if(likers.length <= 0){
-            return;
-        }
-        return (
-            <Text style={styles.likes} >
-                {likers.length} {likers.length > 1? 'curtidas' : 'curtida'}
-            </Text>
-        )
-    }
-
-    exibeLegenda(foto) {
-        if (foto.comentario === ''){
-            return
-        }
-
-        return(
-            <Text style={styles.comentario}>
-                <Text style={styles.tituloComentario}> {foto.loginUsuario} </Text>
-                <Text > {foto.comentario}</Text>
-            </Text>
-        )
-    }
-
-    render() {
-        
-        const { foto } = this.state;
-
-        return (
-            /*
-              <View>
-                {fotos.map(foto => 
-                <View key = {foto.id}>
-                  <Text>{foto.usuario}</Text>
-                  <Image source={require('./resources/img/alura.jpg')} style={{width: screen.width, height: screen.width}}/>
-                </View>
-              </View>
-              )}
-        
-              <FlatList style={{marginTop: 20}} Faz a mesma coisa que o de cima, com componente próprio
-                  keyExtractor={item => item.id}
-                  data={fotos}
-                  renderItem = {({item}) => 
-                    <View>
-                      <Text>{item.usuario}</Text>
-                      <Image source={require('./resources/img/alura.jpg')} style={{width: screen.width, height: screen.width}}/>
-                    </View>
-                  }
-              />  
-            */
-            <View>
-                <View style = {styles.header}>
-                    <Image style = {styles.fotoDePerfil} source={{uri: foto.urlPerfil}}/>
-                    <Text>{foto.loginUsuario}</Text>
-                </View>  
-
-                <Image source={{uri: foto.urlFoto}} style={styles.foto}/>
-
-                <View style = {styles.footer}>
-                    <TouchableOpacity onPress={(this.like)}>
-                        <Image source={this.carregaIcone(foto.likeada)} style={styles.botaoLike}/>
-                    </TouchableOpacity>
-                    {this.exibeLikes(foto.likers)}
-                    {this.exibeLegenda(foto)}
-
-                    
-                    
-                </View>
-                    
-
-
-            </View>   
-          );
-    }
+    return (
+      <View style={styles.comentario}>
+        <Text style={styles.tituloComentario}>{foto.loginUsuario}</Text>
+        <Text>{foto.comentario}</Text>
+      </View>
+    )
+  }
+  render() {
+    const { foto } = this.state
+    return (
+      <View>
+        <View style={styles.header}>
+          <Image source={{ uri: foto.urlFoto }} style={styles.profilePhoto} />
+          <Text>{foto.loginUsuario}</Text>
+        </View>
+        <Image source={{ uri: foto.urlFoto }} style={styles.photo} />
+        <View style={styles.rodape}>
+          <TouchableOpacity onPress={this.like}>
+            <Image style={styles.botaoDeLike} source={this.carregaIcone(foto.likeada)} />
+          </TouchableOpacity>
+        </View>
+        {this.exibeLikes(foto.likers)}
+        {this.exibeLegenda(foto)}
+        {foto.comentarios.map(comentario =>
+          <View style={styles.comentario}>
+            <Text style={styles.tituloComentario}>{foto.loginUsuario}</Text>
+            <Text>{foto.comentario}</Text>
+          </View>
+        )}
+      </View>
+    );
+  }
 }
 
-  const width = Dimensions.get('screen').width;
-  const styles = StyleSheet.create({
-    header: {
-      margin: 10, 
-      flexDirection: 'row', 
-      alignItems: 'center',
-    },
-  
-    fotoDePerfil:{
-      marginRight: 10,
-      width: 40,
-      height: 40,
-      borderRadius: 50
-    },
-  
-    foto:{
-      width: width,
-      height: width
-    },
-
-    footer:{
-      margin: 10,
-      flexDirection: 'row',
-      alignItems: 'center'
-    },
-
-    botaoLike:{
-       height: 40,
-       width: 40,
-       margin: 10
-    },
-
-    likes:{
-        fontWeight: 'bold'
-    },
-
-    comentario:{
-        flexDirection: 'row',
-        marginBottom: 10
-    },
-
-    tituloComentario:{
-        fontWeight: 'bold',
-        marginRight: 5
-    }
-  });
+const styles = StyleSheet.create({
+  header: {
+    margin: 10,
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  profilePhoto: {
+    marginRight: 10,
+    width: 40,
+    height: 40,
+    borderRadius: 20
+  },
+  photo: {
+    width: screen.width,
+    height: screen.width
+  },
+  rodape: {
+    margin: 10,
+    flexDirection: 'row',
+    alignItems: 'center'
+  },
+  botaoDeLike: {
+    height: 40,
+    width: 40,
+    marginBottom: 10
+  },
+  likes: {
+    fontWeight: 'bold'
+  },
+  comentarios: {
+    flexDirection: 'row',
+  },
+  tituloComentario: {
+    fontWeight: 'bold',
+    marginRight: 5,
+  }
+});

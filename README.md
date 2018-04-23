@@ -52,4 +52,6 @@ Atenção aos diretórios dos componentes nos imports e nas referências a arqui
 
 porem a chamada dos parametros está incorreta, pois é diferente do parametro recebido. o certo seria `likers.length` apenas.
 
-- Paramos no capitulo 6.
+## Adição dos novos comentários
+
+
