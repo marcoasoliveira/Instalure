@@ -5,8 +5,9 @@
  */
 
 import React, { Component } from 'react';
-import { AppRegistry, StyleSheet, FlatList } from 'react-native';
+import { AppRegistry, StyleSheet, FlatList, Platform } from 'react-native';
 import Post from './src/components/Post'
+
 
 export default class InstaluraMobile extends Component {
   constructor() {
@@ -34,7 +35,7 @@ export default class InstaluraMobile extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 20
+    marginTop: Platform.OS == 'ios'? 20 : 0
   },
 });
 

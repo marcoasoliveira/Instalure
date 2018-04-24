@@ -52,6 +52,22 @@ Atenção aos diretórios dos componentes nos imports e nas referências a arqui
 
 porem a chamada dos parametros está incorreta, pois é diferente do parametro recebido. o certo seria `likers.length` apenas.
 
-## Adição dos novos comentários
+## Aula 3: 
+
+- Adição dos novos comentários
+
+- Corrigi o problema de não carregar os comentários antigos, a foto do usuário agora é a foto do perfil (antes copiava a postada).
+
+- Nem sempre precisa usar REDUX
+
+- Observar o problema antes de utilizar uma lib, framework, etc...
+
+- Para ler [Medium: Dan Abramov](https://medium.com/@dan_abramov)
+
+- *receber dados e callbacks via props*
+
+- Criação e atribuição de responsabilidades aos componentes InputComentario e Likes
+
+- Diferença de nome entre o estilo chamado e o nome da classe CSS pode causar erro no APP (laranja) e o app não roda
 
 
