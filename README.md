@@ -94,13 +94,16 @@ porem a chamada dos parametros está incorreta, pois é diferente do parametro r
 
 - *Cuidados*: Não é apenas instalar via NPM ou YARN, envolve fazer adaptações na camada Java/Objective C
 
-- `react=batuve-navigation: "^1.1.93"` versão utilizada, adicionada no package Json.
+- `react-native-navigation: "^1.1.93"` versão utilizada, adicionada no package Json.
 
 - *Adaptações*: 
 
-  -- [iOS](https://wix.github.io/react-native-navigation/#/installation-ios)
-  -- [Android](https://wix.github.io/react-native-navigation/#/installation-android)
+[iOS](https://wix.github.io/react-native-navigation/#/installation-ios)
 
+[Android](https://wix.github.io/react-native-navigation/#/installation-android)
 
+- Processo de 'Linking'
+
+- 
 
 
