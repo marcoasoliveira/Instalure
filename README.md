@@ -70,4 +70,18 @@ porem a chamada dos parametros está incorreta, pois é diferente do parametro r
 
 - Diferença de nome entre o estilo chamado e o nome da classe CSS pode causar erro no APP (laranja) e o app não roda
 
+## Aula 4:
+
+- o endereço da api foi alterado devido problemas com a rede
+
+- foram realizadas mudanças para manter o estado em um único componente
+
+- funções `like() e adicionaComentario()` movidas para o componente principal index-android.js
+
+- criação da tela de login (src/screens/login.js)
+
+- definindo a tela de login como primeira tela da aplicação
+
+- criação da lógica de login
+
 
