@@ -61,12 +61,12 @@ export default class Login extends Component{
                 style={styles.logo}/>
                 <View style={styles.form}>
                     <TextInput
-                        style={styles.inputT}
+                        style={styles.loginInput}
                         autoCapitalize="none"
                         placeholder="Usuário"
                         onChangeText={texto => this.setState({usuario: texto})}/>
                     <TextInput
-                        style={styles.inputT}
+                        style={styles.loginInput}
                         autoCapitalize="none"
                         secureTextEntry={true}
                         placeholder="Senha"
@@ -94,9 +94,9 @@ const styles = StyleSheet.create({
         borderBottomWidth: 1,
         borderBottomColor: '#ddd',
     },
-    inputT:{
+    loginInput:{
         backgroundColor: 'rgba(255, 255, 255, 0.8)',
-        marginBottom: 5
+        marginBottom: 5,
     },
     titulo:{
         fontWeight: 'bold',

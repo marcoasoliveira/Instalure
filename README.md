@@ -84,4 +84,23 @@ porem a chamada dos parametros está incorreta, pois é diferente do parametro r
 
 - criação da lógica de login
 
+## Aula 5
+
+- Navegação entre telas
+
+- [React Navigation - AirBnB](https://reactnavigation.org/) e [React Native Navigation - Wix](https://github.com/wix/react-native-navigation)
+
+- A lib utilizada no projeto é a React Native Navigation
+
+- *Cuidados*: Não é apenas instalar via NPM ou YARN, envolve fazer adaptações na camada Java/Objective C
+
+- `react=batuve-navigation: "^1.1.93"` versão utilizada, adicionada no package Json.
+
+- *Adaptações*: 
+
+  -- [iOS](https://wix.github.io/react-native-navigation/#/installation-ios)
+  -- [Android](https://wix.github.io/react-native-navigation/#/installation-android)
+
+
+
 
