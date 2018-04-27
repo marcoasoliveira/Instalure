@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { AsyncStorage } from 'react-native';
+import { Navigation } from 'react-native-navigation'
 import {
   Dimensions,
   StyleSheet,
@@ -8,7 +10,6 @@ import {
   Button,
   Image,
   ImageBackground,
-  AsyncStorage
 } from 'react-native';
 
 const width = Dimensions.get('screen').width
@@ -25,7 +26,7 @@ export default class Login extends Component{
     }
 
     efetuaLogin = () => {
-        const uri = "http://192.168.0.137:8080/api/public/login"
+        const uri = "https://instalura-api.herokuapp.com/api/public/login"
 
         const requestInfo = {
             method: 'POST',
@@ -48,6 +49,12 @@ export default class Login extends Component{
             .then(token => {
                 AsyncStorage.setItem('token', token)
                 AsyncStorage.setItem('usuario', this.state.usuario)
+
+                //nevaga para o feed
+                this.props.navigator.resetTo({
+                    screen: 'Feed',
+                    title: 'Instalura'
+                })
             })
             .catch(error => this.setState({mensagem: error.message}))
     }

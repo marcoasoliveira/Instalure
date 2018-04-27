@@ -3,12 +3,363 @@
 
     <item
         is-multidex="false"
+        jar="/home/cust7697/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_821b6a4be26eeb7afe3f11c9bd88dacf186131ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
         <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_4a11f1085f044e3bf07288ebffd5f5f8664e4a78.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_6383f2c5ded077acb7d25825ea377c5f1c62961b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3ba7de27c0352d9edc1bf85593aead17ff9e9a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_5104a923ce4dd528bf91e44900a16adfe71c79b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_6383f2c5ded077acb7d25825ea377c5f1c62961b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_cde443e283b975237219981305d60203787fee05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_fc4473d93c3785dc8e740efd117ca7cf26113bae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.46.4_89dbb6a6798f7d485832bde50ed270fcae98fd81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_3dff918a7d7dbee53df0c8c8161cf7c0819f438a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_e483277cf1321f0a52504f6dcfa7ea30fa246201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_fc4473d93c3785dc8e740efd117ca7cf26113bae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_207a294073c5aa7f7f160675de9240ff7f7cdfba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_d92c2aacbf1a22c604b5f03011d3a0c453e23cae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_7494a706867f2a26104f602287ff32f361a26c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_cde443e283b975237219981305d60203787fee05.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_207a294073c5aa7f7f160675de9240ff7f7cdfba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_eb1de9bcc730bb284236f61854c7969a78eaee6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_9606524ac4377507a54daa45e0b76ffde4c78ac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_f593d2fe39b0b665731e298f68b546427a37540c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_eb1de9bcc730bb284236f61854c7969a78eaee6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9ea1b9f84204eca5eb93998cbc62532862dbfe81.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d1aa1dc495d99271704276ae8d1198cddd500d53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.1_eb54d8e44c32714ab436811c7b6c882275a16d90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_9606524ac4377507a54daa45e0b76ffde4c78ac7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_08a234d4cb8d40000293cb307cc6e9c3eb631dbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_91f2f2e789cdc2c10804a12c19d6bd1d78910459.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_eeb948b73b9eebfd8c32c309c833482c0d43fe4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_7494a706867f2a26104f602287ff32f361a26c31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3ba7de27c0352d9edc1bf85593aead17ff9e9a4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_564dd50431d72a8765d86926f8674dc057b781cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_eeb948b73b9eebfd8c32c309c833482c0d43fe4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_89e8d3c8b091023c630cb235a059115584b030e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d1aa1dc495d99271704276ae8d1198cddd500d53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_e8ce6d0165b06b0cbe20476f601aa1d7ee84ccbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_3bd3d790e4da0e3231a37de2684ba9c9b0668081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_4d7dec77cec062a9c7272663d729553514da19e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_5437974108d3072d060ce6255008ee32edf37b38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.1_7a1dcb8075b6d0273df9bd3eb4076dd1f89ec633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_97df804d44e8978bbd4256d69a61f59f53e2c7ba.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,57 +399,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_3ba7de27c0352d9edc1bf85593aead17ff9e9a4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_5104a923ce4dd528bf91e44900a16adfe71c79b0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_6383f2c5ded077acb7d25825ea377c5f1c62961b.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
         <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_91c3c3997b0334b24e5bd526e78598889dd0dd1d.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_cde443e283b975237219981305d60203787fee05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.46.4_89dbb6a6798f7d485832bde50ed270fcae98fd81.jar" />
     </item>
     <item
         is-multidex="false"
@@ -111,39 +417,75 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/libs/infer-annotations-4.0.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_e483277cf1321f0a52504f6dcfa7ea30fa246201.jar" />
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.1_297ffebd68e4b96b52cdef1e1178a259a112213d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_fc4473d93c3785dc8e740efd117ca7cf26113bae.jar" />
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_ae6c3320b629d15ddb216f6e8ca0c0a94c89b1c8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_d92c2aacbf1a22c604b5f03011d3a0c453e23cae.jar" />
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_c70e7a95a6c4441d3396d9313cd42a6e99f38153.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_207a294073c5aa7f7f160675de9240ff7f7cdfba.jar" />
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_91f2f2e789cdc2c10804a12c19d6bd1d78910459.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_cc25b575d33712021a75a3f994d260f65c14ed65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_67c9f28f362e7fc16dd129884f4eec03ebe278a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5526d30278eb171f4a1325bd6b927c9057c91f4">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.46.4_9d7f523e5fa627f40df2e4464736156575d87d69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_887fae75214d6d89eccc042139b9fe57873cc7bf.jar" />
     </item>
     <item
         is-multidex="false"
@@ -156,39 +498,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/InstaluraMobile/react-native-navigation/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_465fcad4f8fca25379a7a20d00a46fb534e607bf.jar" />
+        revision="25.0.1"
+        sha1="3f3a93ee2e2561694e70ea7978fcec9fdcff19a2">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/InstaluraMobile-react-native-navigation-unspecified_f584edf01427b51830e91be25bd88b381e9ea4cf.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_eb1de9bcc730bb284236f61854c7969a78eaee6e.jar" />
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_ff516c36eaff2e675a5c54afed8eb30822f6f861.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_691fbcfd1aee85b72ddf83daa4920da5aef97506.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9ea1b9f84204eca5eb93998cbc62532862dbfe81.jar" />
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_119bb9805e6fa77911e0c742391c70b53b429bbb.jar" />
     </item>
     <item
         is-multidex="false"
@@ -201,15 +534,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_9606524ac4377507a54daa45e0b76ffde4c78ac7.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.46.4/jars/libs/infer-annotations-4.0.jar"
         jumboMode="false"
         optimize="true"
@@ -219,39 +543,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_93baac17cbea8c84041b9e92d61138f86fa8fdf0.jar" />
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_d92c2aacbf1a22c604b5f03011d3a0c453e23cae.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_91f2f2e789cdc2c10804a12c19d6bd1d78910459.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_eeb948b73b9eebfd8c32c309c833482c0d43fe4b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_7494a706867f2a26104f602287ff32f361a26c31.jar" />
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_7f7d97392724b899e05ca8d77401945b26aedaa0.jar" />
     </item>
     <item
         is-multidex="false"
@@ -273,39 +579,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="/home/cust7697/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jar="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_4dcaba8c33b8bcff42364b342f3a108ecadefa52.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_564dd50431d72a8765d86926f8674dc057b781cc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_d1aa1dc495d99271704276ae8d1198cddd500d53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="/home/cust7697/Desktop/Instalure-master/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_3bd3d790e4da0e3231a37de2684ba9c9b0668081.jar" />
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/home/cust7697/Desktop/InstaluraMobile/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_0f7f9abede06aa9bc3cf2c0430af1e4325d3ca04.jar" />
     </item>
 
 </items>

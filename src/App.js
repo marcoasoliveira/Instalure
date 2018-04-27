@@ -1,17 +1,30 @@
-import React, { Component } from 'react'
-import{
-    AppRegistry,
-    StyleSheet,
-    FlatList,
-    Platform
-} from 'react-native'
-import Post from './components/Post'
+import { Navigation } from 'react-native-navigation'
+import { AsyncStorage } from 'react-native'
+import Feed from './components/Feed'
 import Login from './screens/Login'
 
 //logica
 
 export default () => {
-    AppRegistry.registerComponent('InstaluraMobile', () => Login);
+    Navigation.registerComponent('Login', () => Login);
+    Navigation.registerComponent('Feed', () => Feed);
+
+    AsyncStorage.getItem('token')
+        .then(token => {
+            if(token){
+                return {
+                    screen: 'Feed',
+                    title: 'Instalura'
+                };
+            }
+            return {
+                screen: 'Login',
+                title: 'Login'
+            }
+        })
+        .then(screen => Navigation.startSingleScreenApp({screen}))
+    
+    
 }
 
 

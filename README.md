@@ -104,6 +104,10 @@ porem a chamada dos parametros está incorreta, pois é diferente do parametro r
 
 - Processo de 'Linking'
 
+## Aula 6
+
+- foi implementado o *Navigation*, e agora o app abre inicialmente a tela de Login, e depois de autenticado o acesso, exibe o feed.
+
 - 
 
 
