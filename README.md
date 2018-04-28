@@ -108,6 +108,10 @@ porem a chamada dos parametros está incorreta, pois é diferente do parametro r
 
 - foi implementado o *Navigation*, e agora o app abre inicialmente a tela de Login, e depois de autenticado o acesso, exibe o feed.
 
-- 
+- Detalhes de comunicação da API foram desacoplados e foi criada a classe `InstaluraFetchService.js` na pasta `src/services/`.
+
+- Adição dos alertas caso algum erro aconteça nos processos de get e post
+
+
 
 
